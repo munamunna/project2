@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Explora&family=Josefin+Sans:ital,wght@1,200&family=Oswald&family=Roboto:wght@700&family=Unbounded:wght@300&display=swap');
+img{
+       width: 272px;
+       height: 46px;
+       padding: 13px;
+       margin-top: 26px;
+       
+   }
+   .firstdiv{
+    margin-left: 44px;
+    
+    
+    position: relative;
+   }
+   a{
+    color: #000;
+    padding: 8px;
+    font-family: 'Unbounded', cursive; 
+     /* font-family: 'Titan One', cursive; 
+    font-family: 'Oswald', sans-serif; */
+    font-weight: bold;
+    text-decoration: none;
+   }
+   .seventhchild button{
+    
+    padding: 8px;
+    /* font-family: 'Unbounded', cursive;
+    font-weight: bold; */
+    background: #f26829;
+    border-radius: 4px;
+    /* color: #fff!important; */
+    border: none;
+    /* padding: 13px 20px; */
+
+   }
+   .seventhchild button a{
+    color: #fff;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    padding: 8px;
+
+   }
+   .seventhchild button:hover{
+    
+    background-color: #f1f1f1;
+   }
+   .secnddiv{
+    display: flex;
+    width: 70%;
+    flex-direction: space-evenly;
+    
+   }
+   .firstdiv{
+    position: relative;
+   }
+   .secnddiv{
+    position: absolute;
+    top: 30px;
+    left:500px;
+   }
+   .seventhchild button{
+    margin-left: 20px;
+    width: 155px;
+    /* padding:10px 16px; */
+    padding: 17px 21px;
+  
+    
+   }
+    /* body{
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-style: normal;
+    
+   }  */
+  header{
+    width:100%;
+    height:119px;
+    background-color:white;
+  }
+ .child1,.child2,.thrdchild,.fourthchild,.fifthchild,.sixtchild{
+    margin-left: 15px;
+    margin-top: 18px;
+ }
+ 
+  .secnddiv a:hover{
+    color:#f26829;
+    
+ } 
+ 
+/* header section completed */
+
+header{
+    position: relative;
+}
+mainsection .mainimg{
+    position: absolute;
+       top: 106px;
+       
+       
+       
+
+
+        
+}
+.mainbtn a{
+    color: #fff;
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    padding: 8px;
+}
+ .mainbtn button{
+    width: 195px;
+    height: 70px;
+    background: #e4288f;
+    border-radius: 6px;
+    padding: 8px;
+    margin-left: 630px;
+    border-color: white;
+    margin-top: 577px;
+    
+} 
+.mainbtn i{
+   color: #fff;
+   
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.col img{
+    width: 100px;
+    height: 100px;
+    border-radius: 61px;
+   
+}.parentsubsection{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(45deg,#f1f1f1,transparent,#f1f1f1)
+}
+.divimg img{
+    height: 424px;
+}
+.divimg{
+    position: relative;
+    
+}
+.hediv{
+    position: absolute;
+    left: 834px;
+    top: 1146px;
+    
+}.clrdiv{
+    width: 50%;
+    height: 424px;
+    background-color:#f26829;
+    position: absolute;
+    bottom: -772px;
+    left: 730px;;
+}
+.hediv h1{
+    font-family: 'Roboto', sans-serif;
+    color:#fff
+
+}
+.root{
+    background-image: url("./img/img2.jpg");
+}
+.core h1{
+    text-align: center;
+}
+.kid1 img{
+    width:30%;
+    height: 400px;
+    cursor: pointer;
+}
+
+.kid2{
+    width: 30%;
+    height:200px ;
+    background-color:white;
+    position: absolute;
+    left: 13px;
+    bottom: -1510px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    
+    
+}
+.kid2  button{
+    background-color: #f26829;
+    color: #f1f1f1;
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    position: absolute;
+    top: 18px;
+    left: 260px;
+    border-color: white;
+
+}
+ .kid2 button:hover{
+    background-color: #e4288f;
+    cursor: pointer;
+}
+.kid2 div #head{
+    
+    margin-top: 60px;
+
+}
+/* .kid1{
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+
+
+
+
+
+
