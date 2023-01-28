@@ -169,7 +169,7 @@ body{
  }
  .mainhead{
     background-image: url("./img/img2.jpg");
-    height: 100px;
+    height: 20px;
  }
 #core1{
     text-align: center;
@@ -235,17 +235,18 @@ body{
  #head{
     margin-left: 10px;
  }
- /* kid1 */
+ 
 
 .core{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     
     
 }
 .core1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+   
     
     
     
@@ -254,6 +255,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     
     transition: 1s ease-in-out;
+
     
 }
 .core1 .kid1:hover{
@@ -264,7 +266,91 @@ body{
 }
 .core .kid1{
     margin-bottom: 50px;
-} 
+}
+/* kid1 */ 
+.brwndiv{
+    width: 100%;
+    height: 400px;
+    background-color: #653602;
+    
+    
+    
+    margin-top: 100px;
+    padding-top: 30px;
+}
+.brwndiv a{
+   
+    /* color: #fff; */
+    
+    font-size: small;
+    
+}
+.secondnav{
+    margin-top: 40px;
+}
+.mail{
+    margin-top: 20px;
+}
+.nav a{
+    color: #f1f1f1;
+}
+.secondnav a{
+    color: #f1f1f1;
+}.mail a{
+    color: white;
+}
+
+
+   
+    
+
+.inpt h3{
+    width: 66px;
+    height: 39px;
+   
+    
+    
+    
+   
+    
+}
+.icondiv{
+    
+     margin-left: 1000px;
+    margin-top: -50px;
+    display: block; 
+    color:black;
+   
+    
+}
+.inpt h3{
+    display: block;
+    margin-top: -30px;
+    margin-left: 150px;
+}
+.inpt i{
+    display: block;
+    margin-top: -53px;
+    margin-left: 110px;
+}.blnkdiv{
+    width: 180px;
+    height: 60px;
+    
+    margin-top: -44px;
+    border: 2px solid black;
+    margin-left: 80px;
+    background-color: #fff;
+    border-radius: 7px;
+    
+}
+
+
+
+
+
+    
+
+
 
 
 
