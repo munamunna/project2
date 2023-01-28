@@ -242,6 +242,7 @@ body{
     justify-content: space-around;
     
     
+    
 }
 .core1{
     display: flex;
@@ -343,7 +344,17 @@ body{
     border-radius: 7px;
     
 }
+#header{
+    width: 100%;
+    
+    position: sticky;
+    
+    top:0px;
+    background-color: #f1f1f1;
+    z-index: 100;
 
+    
+}
 
 
 
