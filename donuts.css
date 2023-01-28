@@ -136,82 +136,135 @@ body{
     justify-content: space-evenly;
     background: linear-gradient(45deg,#f1f1f1,transparent,#f1f1f1)
 }
-.divimg img{
-    height: 424px;
-}
-.divimg{
-    position: relative;
+ .clrdiv img{
+    height: 400px;
+    display: block;
+    margin-bottom: 10px;
     
 }
+
 .hediv{
     position: absolute;
     left: 834px;
     top: 1146px;
     
 }.clrdiv{
-    width: 50%;
+    width: 100%;
     height: 424px;
     background-color:#f26829;
-    position: absolute;
-    bottom: -772px;
-    left: 730px;;
+    /* position: absolute; */
+    /* bottom: -734px;
+    left: 720px; */
 }
 .hediv h1{
     font-family: 'Roboto', sans-serif;
     color:#fff
 
 }
-.root{
+ .core1{
     background-image: url("./img/img2.jpg");
-}
-.core h1{
+ }
+ .core{
+    background-image: url("./img/img2.jpg");
+ }
+ .mainhead{
+    background-image: url("./img/img2.jpg");
+    height: 100px;
+ }
+#core1{
     text-align: center;
+    
 }
+/* kid1 */
 .kid1 img{
-    width:30%;
+    width:70%;
     height: 400px;
     cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+}
+.kid1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    transition: 1s ease-in-out;
+    
+}
+.kid1{
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
 }
 
-.kid2{
-    width: 30%;
-    height:200px ;
-    background-color:white;
-    position: absolute;
-    left: 13px;
-    bottom: -1510px;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
-    
-    
+.kid1:hover{
+    transform: translateY(-15px);
 }
-.kid2  button{
+.kid1{
+    position: relative;
+}
+
+ #kid1{
     background-color: #f26829;
-    color: #f1f1f1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
     height: 30px;
     width: 150px;
-    padding: 5px;
     position: absolute;
-    top: 18px;
-    left: 260px;
-    border-color: white;
-
-}
- .kid2 button:hover{
-    background-color: #e4288f;
+    left: 250px;
+    top: 447px;
     cursor: pointer;
-}
-.kid2 div #head{
+    }
+    #kid1:hover{
+        background-color: #e4288f;
+    }
+ .kid1{
+    width: 30%;
+    margin-left: 10px;
+    cursor: pointer;
     
-    margin-top: 60px;
-
-}
-/* .kid1{
+ }
+ #best{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    font-weight: bold;
+    margin-left: 10px;
     
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
+    
+ }
+ #head{
+    margin-left: 10px;
+ }
+ /* kid1 */
 
-
+.core{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.core1{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+ .core1 .kid1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    transition: 1s ease-in-out;
+    
+}
+.core1 .kid1:hover{
+    transform: translateY(-10px);
+}
+.kid1{
+    background-color:white;
+}
+.core .kid1{
+    margin-bottom: 50px;
+} 
 
 
 
