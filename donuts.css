@@ -355,6 +355,37 @@ body{
 
     
 }
+.aboutdiv{
+    width:100%;
+    background-color: #f26829;
+    height: 700px;
+}
+.aboutdiv h1{
+    margin-left: 700px;
+    padding-top: 140px;
+    padding-left: 100px;
+    color: #f1f1f1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+
+}.pinkdiv{
+    width: 100%;
+    height: 240px;
+    background-color: #df1883;
+    margin-top: -450px;
+    color: #f1f1f1;
+}.pinkdiv h3{
+    text-align: right;
+    padding-right: 250px;
+    
+    
+}
+.aboutdiv img{
+    width: 35%;
+    height:400px ;
+    margin-top: -100px;
+    
+}
 
 
 
